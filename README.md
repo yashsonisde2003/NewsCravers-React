@@ -7,7 +7,6 @@ NewsCravers is a web application that allows users to explore the latest news ar
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -15,7 +14,6 @@ NewsCravers is a web application that allows users to explore the latest news ar
 - [API Documentation](#api-documentation)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
