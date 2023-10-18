@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# NewsCravers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsCravers is a web application that allows users to explore the latest news articles from various sources. It is powered by the News API from newsapi.org and built with Node.js, React.js, and styled with Bootstrap for a modern and responsive user experience.
 
-## Available Scripts
+![NewsCravers Screenshot](https://github.com/yashsonisde2003/NewsCravers-React/blob/main/src/components/images/demo.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Browse and search for the latest news articles from various sources.
+- Filter news articles by category.
+- View detailed information about each news article.
+- User-friendly and responsive design.
+- Powered by the News API from newsapi.org.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js and npm installed on your local machine.
+- API key from [newsapi.org](https://newsapi.org) for accessing their API create a .env.local file in root directory and store api key in this REACT_APP_API_KEY .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/yourusername/news-cravers.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd news-cravers
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies for the Node.js server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file in the server directory and add your API key:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```plaintext
+   REACT_APP_API_KEY=your-api-key-here
+   ```
 
-## Learn More
+5. Start the React.js client:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd ../client
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application will be running locally at `http://localhost:3000`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Browse the latest news articles on the homepage.
+2. Use the navigation menu to filter news articles by category.
+3. Click on more info in any article to view detailed information.
 
-### Analyzing the Bundle Size
+## API Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For detailed information on the API endpoints and responses provided by [newsapi.org](https://newsapi.org), please refer to their [official documentation](https://newsapi.org/docs).
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Node.js for the server-side logic.
+- React.js for the client-side user interface.
+- Bootstrap for styling the application.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the project.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them.
+4. Submit a pull request with a clear description of your changes.
